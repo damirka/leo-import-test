@@ -1,0 +1,5 @@
+// The program input for printo/src/main.leo
+[main]
+
+[registers]
+r0: [char; 8] = [' '; 8];

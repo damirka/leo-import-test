@@ -1,0 +1,27 @@
+[[package]]
+name = "printo"
+version = "0.1.0"
+author = "damirka"
+import_name = "printo"
+
+[package.dependencies]
+ello = "damirka-print-ello@0.1.0"
+old = "damirka-print-old@0.1.0"
+
+[[package]]
+name = "print-ello"
+version = "0.1.0"
+author = "damirka"
+import_name = "ello"
+
+[[package]]
+name = "print-old"
+version = "0.1.0"
+author = "damirka"
+import_name = "old"
+
+[[package]]
+name = "print-old"
+version = "0.1.0"
+author = "damirka"
+import_name = "old"

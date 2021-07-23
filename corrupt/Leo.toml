@@ -1,0 +1,17 @@
+[project]
+name = "corrupt"
+version = "0.1.0"
+description = "The corrupt package"
+license = "MIT"
+
+[remote]
+author = "damirka" # Add your Aleo Package Manager username or team name.
+
+[target]
+curve = "bls12_377"
+proving_system = "groth16"
+
+[dependencies]
+# Define dependencies here in format:
+printo = { package = "printo", author = "damirka", version = "0.1.0" }
+old = { package = "print-old", author = "damirka", version = "0.1.0" }
