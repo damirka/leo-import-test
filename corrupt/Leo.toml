@@ -13,5 +13,5 @@ proving_system = "groth16"
 
 [dependencies]
 # Define dependencies here in format:
-printo = { package = "printo", author = "damirka", version = "0.1.0" }
-old = { package = "print-old", author = "damirka", version = "0.1.0" }
+printo = { package = "printo", author = "damirka", version = "0.1.0" } # two child imports, one of which is named "old"
+old = { package = "fourth", author = "damirka", version = "0.1.0" }

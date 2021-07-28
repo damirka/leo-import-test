@@ -21,7 +21,16 @@ author = "damirka"
 import_name = "old"
 
 [[package]]
-name = "print-old"
+name = "fourth"
 version = "0.1.0"
 author = "damirka"
 import_name = "old"
+
+[package.dependencies]
+doge = "yeagerj-dogecoin@0.1.0"
+
+[[package]]
+name = "dogecoin"
+version = "0.1.0"
+author = "yeagerj"
+import_name = "doge"
